@@ -1,0 +1,99 @@
+html,
+body {
+  height: 100%;
+  width: 40%;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container {
+  border: 3px solid grey;
+  border-radius: 6px;
+  padding: 15px 15px 15px 15px;
+  background-image: radial-gradient(
+    circle 621px at 25.3% 13.8%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(234, 236, 255, 1) 90%
+  );
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#date,
+#time {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 0;
+  padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+.row {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 180px;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  display: block;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.col-6 col-sm-3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#search-form {
+  margin: 30px 15px 15px 15px;
+  padding: 5px auto;
+  text-align: center;
+}
+.pure-button {
+  font-size: 15px;
+  padding: 5px 5px 5px 5px;
+  line-height: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: #e0e0e0;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+}
+
+.pure-button:hover {
+  background: grey;
+}
+#celsius,
+#fahrenheit {
+  top: -35px;
+  left: 30px;
+  font-size: 12px;
+}
+#humidity,
+#temperature,
+#wind,
+#temperature-icon,
+#wind-icon,
+#humidity-icon {
+  padding: 10px auto;
+}
